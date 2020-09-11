@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.lakshya.onlineexam.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_changepassword"
+        android:name="org.lakshya.onlineexam.ui.password.ChangePasswordFragment"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_change_password" />
+
+    <!--<fragment
+        android:id="@+id/nav_giveexam"
+        android:name="org.lakshya.onlineexam.ui.onlineexam.GiveExamFragment"
+        android:label="Give Exam"
+        tools:layout="@layout/fragment_give_exam" />-->
+
+    <!--<fragment
+        android:id="@+id/nav_performance"
+        android:name="org.lakshya.onlineexam.ui.onlineexam.PerformanceFragment"
+        android:label="Performance"
+        tools:layout="@layout/fragment_performance" />-->
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="org.lakshya.onlineexam.ui.LogoutFragment"
+        android:label="Performance"
+        tools:layout="@layout/fragment_logot" />
+
+</navigation>
